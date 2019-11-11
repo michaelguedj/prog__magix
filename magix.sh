@@ -62,7 +62,7 @@ then
 	cd $2
 	for x in $( ls  )
 	do
-		bash magix_one "$x" 
+		bash magix_one.sh "$x" 
 	done
 		
 	exit 0
