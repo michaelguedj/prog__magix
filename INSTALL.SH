@@ -7,3 +7,5 @@ then
 fi
 
 bash 123tools.sh
+
+echo "Installation of magic: [OK]"
