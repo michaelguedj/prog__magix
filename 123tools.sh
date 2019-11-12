@@ -7,7 +7,7 @@
 #
 # Description: 123tools.sh allows to install other programs on a Linux System.
 #
-# Version: 0.3
+# Version: 0.4
 #
 # Date: 12/11/2019
 #
@@ -29,6 +29,7 @@ var=$( cat $HOME/.bashrc | grep "~/.bash_aliases" )
 if [ "$var" = "" ]
 then 
 	echo "!: 123tools acts only over a Linux session with a regular .bashrc file."
+	exit 1
 fi
 
 
