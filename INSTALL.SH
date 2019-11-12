@@ -8,4 +8,7 @@ fi
 
 bash 123tools.sh
 
-echo "Installation of magic: [OK]"
+if [ "$?" = 0 ]
+then
+	echo "Installation of magic: [OK]"
+fi
